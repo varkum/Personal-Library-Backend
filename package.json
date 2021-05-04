@@ -1,0 +1,27 @@
+{
+	"name": "library-backend",
+	"version": "1.0.0",
+	"description": "api for personal library",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"bcrypt": "*",
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.14.0",
+		"express-session": "*",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^3.6.2",
+		"mongoose": "*",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	]
+}
